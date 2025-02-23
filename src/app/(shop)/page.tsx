@@ -31,13 +31,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   Heart,
-  SlidersHorizontal,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
 import { RootState } from "@/redux/store";
 import { HomeWebViewType } from "@/models/data";
 import {
@@ -123,7 +121,7 @@ export default function Home() {
               <div>
                 <h1 className="text-2xl font-bold">Dashboard</h1>
                 <p className="text-muted-foreground">
-                  Welcome back, here's what's happening today
+                  Welcome back, here&apos;s what&apos;s happening today
                 </p>
               </div>
               <div className="flex items-center gap-4">
